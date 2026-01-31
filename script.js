@@ -1,10 +1,8 @@
 let userInput = document.getElementById('userPassword');
 let theReturn = document.getElementById('passwordCheck');
 
-console.log("runs");
-
-
-
+let element1 = document.getElementById('ele1');
+let element2 = document.getElementById('ele2');
 
 setInterval(
     function passwordQuality(){
@@ -29,4 +27,6 @@ setInterval(
             theReturn.textContent = '';
         }
     }, 500
+
     )
+
