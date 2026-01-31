@@ -1,3 +1,4 @@
 # PassCheck Web APP
 <h1> Goal: </h1>
-<p>I build this Website to practice JavaScript, the app have a unique User Interface Designed by me</p>
+<p>I build this Website to practice JavaScript</p>
+<img src="Ui Design.png">
