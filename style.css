@@ -1,0 +1,68 @@
+@font-face {
+    font-family: main;
+    src: url(src/font/syne.bold.otf);
+} @font-face {
+    font-family: submain;
+    src: url(src/font/ibmMono.ttf);
+} 
+/*
+BackgroundColor: #2F2F2F
+MainColor: #FE392E
+*/
+
+body{
+    background-color: #2F2F2F;
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    margin-top: 130px;
+}
+
+.title{
+    color: #FFFF ;
+    font-family: main;
+    font-size: 90px;
+    padding-left: 50px;
+}
+
+.inputCont{
+    margin-left: 530px;
+    margin-top: -138px;
+    display: flex;
+}
+
+.inputStyle{
+    height: 50px;
+    width: 350px;
+    border-radius: 50px;
+    border: solid #4e4e4e 2.5px;
+    background-color: #2F2F2F;
+    color: white;
+    font-family: submain;
+    padding-left: 20px; padding-right: 20px;
+}
+
+.inputStyle:focus{
+    outline: none;
+}
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    padding-left: 40px;
+}
+
+.bad{
+    color: #FE392E;
+}
+
+.mid{
+    color:#fed82e;
+}
+
+.gg{
+    color: #2efe51;
+}
+
